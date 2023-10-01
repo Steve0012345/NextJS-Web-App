@@ -6,6 +6,14 @@ export default function QueryProcessor(query: string): string {
       "writer in the English language and the world's pre-eminent dramatist."
     );
   }
+  //New query for Andrew ID
+  if (query.toLowerCase().includes("andrew id")) {
+    return (
+      "My Andrew ID is " +
+      "sndayamb."
+      
+    );
+  }
 
   return "";
 }
